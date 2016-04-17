@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Jie Li | UX Designer</title>
+    <title>Tera | Responsive HTML5 Portfolio Template</title>
     <meta charset='utf-8'>
     <meta content='Description' name=''>
     <meta content='1 day' name='revisit-after'>
@@ -25,7 +25,7 @@
       <header data-spy='affix'>
         <section>
           <a class='brand' href='index.html'>
-            Jie Li | UX Designer
+            Tera
           </a>
           <ul id='navigation'>
             <div class='trigger'>
@@ -34,11 +34,11 @@
               <div class='bar'></div>
             </div>
             <li>
-              <a href='index.html'>Work</a>
+              <a href='index.html'>Home</a>
+            </li>
+            <li>
+              <a href='#'>Features</a>
               <ul>
-                <li>
-                  <a class='anchor' href='#work'>Anchor link</a>
-                </li>
                 <li>
                   <a href='tera-slider.html'>Tera Slider</a>
                 </li>
@@ -60,7 +60,7 @@
               </ul>
             </li>
             <li>
-              <a href='#'>About</a>
+              <a href='#'>Portfolio</a>
               <ul>
                 <li>
                   <a href='portfolio.html'>Default portfolio</a>
@@ -105,39 +105,37 @@
           </ul>
         </section>
       </header>
-      <section>
-        <div class='row block'>
-          <div class='col-md-6 col-md-offset-3'>
+      <section class='jumbotron small'>
+        <section>
+          <div class='row'>
+            <div class='col-md-5'>
+              <h1>Portfolio</h1>
+            </div>
+            <div class='col-md-7'>
+              <div id='filter-trigger'>Filter</div>
+              <ul class='pull-right' id='filters'>
+                <li>
+                  <button data-filter='*'>All</button>
+                </li>
+                <li>
+                  <button data-filter='.design'>Design</button>
+                </li>
+                <li>
+                  <button data-filter='.photography'>Photography</button>
+                </li>
+                <li>
+                  <button data-filter='.illustration'>Illustration</button>
+                </li>
+                <li>
+                  <button data-filter='.identity'>Identity</button>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
+        </section>
       </section>
-      <section class='work' id='work'>
-        <div class='row'>
-          <div class='col-md-8'>
-            <div class='pull-left' id='filter-trigger'>Filter</div>
-            <ul id='filters'>
-              <li>
-                <button data-filter='*'>All</button>
-              </li>
-              <li>
-                <button data-filter='.interactiondesign'>Interaction Design</button>
-              </li>
-              <li>
-                <button data-filter='.visualdesign'>Visual Design</button>
-              </li>
-              <li>
-                <button data-filter='.userresearch'>User Research</button>
-              </li>
-              <li>
-                <button data-filter='.drawings'>Drawings</button>
-              </li>
-              <li>
-                <button data-filter='.forfun'>Fun Projects</button>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <ul class='col-3' id='grid'>
+      <section class='work'>
+        <ul id='grid'>
           <li class='item photography illustration'>
             <a class='inner' href='single.html' style='background:url(images/projects/17.jpg);'>
               <div class='caption'>
@@ -152,7 +150,7 @@
             </a>
           </li>
           <li class='item photography wide'>
-            <a class='inner' href='single.html' style='background:url(images/projects/canary2.png);'>
+            <a class='inner' href='single.html' style='background:url(images/projects/05.png);'>
               <div class='caption'>
                 <div class='field'>
                   Design
@@ -165,7 +163,7 @@
             </a>
           </li>
           <li class='item identity'>
-            <a class='inner' href='single.html' style='background:url(images/projects/seattletravelguide.png);'>
+            <a class='inner' href='single.html' style='background:url(https://ununsplash.imgix.net/photo-1414637104192-f9ab9a0ee249?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'>
               <div class='caption'>
                 <div class='field'>
                   Typography + Branding
@@ -217,7 +215,7 @@
             </a>
           </li>
           <li class='item design illustration'>
-            <a class='inner' href='single.html' style='background:url(images/projects/funprojects.png);'>
+            <a class='inner' href='single.html' style='background:url(https://unsplash.imgix.net/photo-1416400453940-65c69d70ad91?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'>
               <div class='caption'>
                 <div class='field'>
                   Design + Illustration
@@ -231,18 +229,6 @@
           </li>
         </ul>
       </section>
-      <section>
-        <div class='row block'>
-          <div class='col-md-6 col-md-offset-3'>
-            <div class='text-center'>
-              <div class='title-block'>
-                <h3>Perfectly Built</h3>
-              </div>
-              <p>With a unique custom slider (less than 3kb) specially tailored for the Tera Template and modified Masonry columns that keep a certain aspect ratio, it's one of the most advanced, yet simplest templates out there.</p>
-            </div>
-          </div>
-        </div>
-      </section>
       <section class='contact top-line mobile-center'>
         <div class='block'>
           <div class='row'>
@@ -252,7 +238,8 @@
                   <div class='fa fa-building-o'></div>
                 </div>
                 <div class='col-md-10'>
-                  <p>Seattle, U.S.</p>
+                  <p>Teratstreet 404</p>
+                  <p>13337, AB, CD</p>
                 </div>
               </div>
             </div>
@@ -262,7 +249,8 @@
                   <div class='fa fa-phone'></div>
                 </div>
                 <div class='col-md-10'>
-                  <p>(206) 953 5592</p>
+                  <p>(10) 10 100 100</p>
+                  <p>(13) 33 333 337</p>
                 </div>
               </div>
             </div>
@@ -272,7 +260,8 @@
                   <div class='fa fa-envelope-o'></div>
                 </div>
                 <div class='col-md-10'>
-                  <p>joyce90829@gmail.com</p>
+                  <p>support@themanoid.com</p>
+                  <p>sales@themanoid.com</p>
                 </div>
               </div>
             </div>
@@ -282,14 +271,15 @@
       <footer>
         <section class='text-center'>
           <div class='social'>
-            <a class='icon fa fa-linkedin' href='https://www.linkedin.com/in/lijiejoyce'></a>
-            <a class='icon fa fa-twitter' href='https://twitter.com/lijiejoyce?lang=en'></a>
-            <a class='icon fa fa-instagram' href='https://www.instagram.com/lijiejoyce/'></a>
-            <a class='icon fa fa-facebook' href='https://www.facebook.com/jie.li.58367'></a>
-
+            <a class='icon fa fa-dribbble' href='#'></a>
+            <a class='icon fa fa-behance' href='#'></a>
+            <a class='icon fa fa-facebook' href='#'></a>
+            <a class='icon fa fa-instagram' href='#'></a>
+            <a class='icon fa fa-twitter' href='#'></a>
+            <a class='icon fa fa-stumbleupon' href='#'></a>
           </div>
           <div class='copy'>
-            &copy; 2016 Jie Li. All Rights Reserved.
+            &copy; 2015 Tera. All Rights Reserved.
           </div>
         </section>
       </footer>
