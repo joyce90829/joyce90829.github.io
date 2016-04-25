@@ -34,10 +34,33 @@
               <div class='bar'></div>
             </div>
             <li>
-              <a href='Aboutme.html'>About me</a>
+              <a href='index.html'>Work</a>
+              <ul>
+                <li>
+                  <a class='anchor' href='#work'>Anchor link</a>
+                </li>
+                <li>
+                  <a href='tera-slider.html'>Tera Slider</a>
+                </li>
+                <li>
+                  <a href='icons.html'>Retina icons</a>
+                </li>
+                <li>
+                  <a href='404.html'>404 Error page</a>
+                </li>
+                <li>
+                  <a href='index-boxed.html'>Boxed layout</a>
+                </li>
+                <li>
+                  <a href='profile.html'>Profile page</a>
+                </li>
+                <li>
+                  <a href='elements.html'>Elements</a>
+                </li>
+              </ul>
             </li>
             <li>
-              <a href='index.html'>Work</a>
+              <a href='#'>About</a>
               <ul>
                 <li>
                   <a href='portfolio.html'>Default portfolio</a>
@@ -61,40 +84,62 @@
             </li>
             <li>
               <a href='#'>Blog</a>
+              <ul>
+                <li>
+                  <a href='blog.html'>Blog default</a>
+                </li>
+                <li>
+                  <a href='blog-sidebar.html'>Blog with sidebar</a>
+                </li>
+                <li>
+                  <a href='blog-single.html'>Blog single</a>
+                </li>
+                <li>
+                  <a href='blog-single-sidebar.html'>Blog single with sidebar</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href='contact.html'>Contact</a>
             </li>
           </ul>
         </section>
       </header>
-      <section class='jumbotron small'>
-        <section>
-          <div class='row'>
-            <div class="col-md-8">
-            <div class="pull-left" id="filter-trigger">Filter</div>
-            <ul id="filters">
-              <li>
-                  <button data-filter='*'>All</button>
-                </li>
-                <li>
-                  <button data-filter='.design'>UX/UI Design</button>
-                </li>
-                <li>
-                  <button data-filter='.photography'>Graphic Design</button>
-                </li>
-                <li>
-                  <button data-filter='.illustration'>Illustration</button>
-                </li>
-                <li>
-                  <button data-filter='.identity'>Fun Projects</button>
-                </li>
-              </ul>
-            </div>
-            </div>
-        </section>
+      <section>
+        <div class='row block'>
+          <div class='col-md-6 col-md-offset-3'>
+          </div>
+        </div>
       </section>
-      <section class='work'>
-        <ul class='no-spacing col-3' id='grid'>
+      <section class='work' id='work'>
+        <div class='row'>
+          <div class='col-md-8'>
+            <div class='pull-left' id='filter-trigger'>Filter</div>
+            <ul id='filters'>
+              <li>
+                <button data-filter='*'>All</button>
+              </li>
+              <li>
+                <button data-filter='.interactiondesign'>Interaction Design</button>
+              </li>
+              <li>
+                <button data-filter='.visualdesign'>Visual Design</button>
+              </li>
+              <li>
+                <button data-filter='.userresearch'>User Research</button>
+              </li>
+              <li>
+                <button data-filter='.drawings'>Drawings</button>
+              </li>
+              <li>
+                <button data-filter='.forfun'>Fun Projects</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <ul class='col-3' id='grid'>
           <li class='item photography illustration'>
-            <a class='inner' href='single.html' style='background:url(images/projects/OOBE.PNG);'>
+            <a class='inner' href='single.html' style='background:url(images/projects/17.jpg);'>
               <div class='caption'>
                 <div class='field'>
                   Identity + Design
@@ -107,7 +152,7 @@
             </a>
           </li>
           <li class='item photography wide'>
-            <a class='inner' href='project-canary.html' style='background:url(images/projects/canary2.png);'>
+            <a class='inner' href='single.html' style='background:url(images/projects/canary2.png);'>
               <div class='caption'>
                 <div class='field'>
                   Design
@@ -159,7 +204,7 @@
             </a>
           </li>
           <li class='item design identity'>
-            <a class='inner' href='single.html' style='background:url(images/projects/funprojects.png);'>
+            <a class='inner' href='single.html' style='background:url(https://unsplash.imgix.net/photo-1423109437485-813895ed077f?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'>
               <div class='caption'>
                 <div class='field'>
                   Design + Identity
@@ -172,7 +217,7 @@
             </a>
           </li>
           <li class='item design illustration'>
-            <a class='inner' href='single.html' style='background:url(https://unsplash.imgix.net/photo-1416400453940-65c69d70ad91?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'>
+            <a class='inner' href='single.html' style='background:url(images/projects/funprojects.png);'>
               <div class='caption'>
                 <div class='field'>
                   Design + Illustration
@@ -186,10 +231,22 @@
           </li>
         </ul>
       </section>
+      <section>
+        <div class='row block'>
+          <div class='col-md-6 col-md-offset-3'>
+            <div class='text-center'>
+              <div class='title-block'>
+                <h3>Perfectly Built</h3>
+              </div>
+              <p>With a unique custom slider (less than 3kb) specially tailored for the Tera Template and modified Masonry columns that keep a certain aspect ratio, it's one of the most advanced, yet simplest templates out there.</p>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class='contact top-line mobile-center'>
         <div class='block'>
           <div class='row'>
-               <div class='col-md-4'>
+            <div class='col-md-4'>
               <div class='row'>
                 <div class='col-md-2'>
                   <div class='fa fa-building-o'></div>
@@ -224,7 +281,7 @@
       </section>
       <footer>
         <section class='text-center'>
-              <div class='social'>
+          <div class='social'>
             <a class='icon fa fa-linkedin' href='https://www.linkedin.com/in/lijiejoyce'></a>
             <a class='icon fa fa-twitter' href='https://twitter.com/lijiejoyce?lang=en'></a>
             <a class='icon fa fa-instagram' href='https://www.instagram.com/lijiejoyce/'></a>

@@ -590,11 +590,24 @@ section {
     padding: 0;
     position: relative;
     display: inline-block; }
+    section.jumbotron.medium {
+      height: 275px !important; }
     section.jumbotron.small {
       height: 175px !important; }
     section.jumbotron .bg {
       background-attachment: static;
       background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+    section.jumbotron .bg.blur{
+      -webkit-filter: blur(40px);
+      background-attachment: static;
+      background-position: 10% 100%;
       background-repeat: no-repeat;
       background-size: cover;
       position: absolute;
