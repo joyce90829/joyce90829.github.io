@@ -335,7 +335,10 @@ figure.profile {
     margin-bottom: 18px; }
   @media screen and (max-width: 1300px) {
     figure.profile {
-      margin: 30px 0 50px; } }
+      margin: 30px 0 50px; } 
+    figure.profile .description h2 {
+    margin: 30px 0 25px 0; }
+    }
 
 label {
   margin: 20px 0 7px; }
