@@ -1,0 +1,43 @@
+
+        <ul class='col-3' id='thumb'>
+          <li class='item seasonal cap-2'>
+            <a class='inner' href='single.html'>
+              <img src="images/projects/funillustrations/CellReportsCoverTemplate.png" />
+              <div class='caption'>
+                <div class='field'>
+                  Holland
+                </div>
+                <div class='titles'>
+                  <div class='title'>Winter is coming</div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class='item seasonal trees cap-2'>
+            <a class='inner' href='single.html'>
+              <img src="images/projects/funillustrations/sketches.jpg" />
+              <div class='caption'>
+                <div class='field'>
+                  Canada
+                </div>
+                <div class='titles'>
+                  <div class='title'>A walk in the park</div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class='item high seasonal mountains cap-2'>
+            <a class='inner' href='single.html'>
+              <img src="https://ununsplash.imgix.net/reserve/ZF75d1lhQ0SyLWYEGOqO_21_forest_mountains.jpg?fit=crop&amp;fm=jpg&amp;h=500&amp;q=75&amp;w=500" />
+              <div class='caption'>
+                <div class='field'>
+                  Italy
+                </div>
+                <div class='titles'>
+                  <div class='title'>Sacred Mountains</div>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+ 
