@@ -604,7 +604,7 @@ section {
     section.jumbotron.medium {
       height: 275px !important; }
     section.jumbotron.small {
-      height: 150px !important; }
+      height: 200px !important; }
     section.jumbotron .bg {
       background-attachment: static;
       background-position: 50% 50%;
@@ -614,7 +614,7 @@ section {
       top: 0;
       left: 0;
       right: 0;
-      bottom: 0;z }
+      bottom: 0; }
     section.jumbotron .bg.blur{
       -webkit-filter: blur(40px);
       background-attachment: static;
