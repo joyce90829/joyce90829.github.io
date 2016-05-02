@@ -614,7 +614,7 @@ section {
       top: 0;
       left: 0;
       right: 0;
-      bottom: 0; }
+      bottom: 0;z }
     section.jumbotron .bg.blur{
       -webkit-filter: blur(40px);
       background-attachment: static;
@@ -656,19 +656,24 @@ section {
     margin: 0 auto; }
     section .block.small {
       padding: 10px !important; }
-    @media screen and (min-width: 1300px) {
+    @media screen and (min-width: 1000px) {
       section .block {
-       padding: 30px 20px; } }
-    @media screen and (max-width: 1300px) {
+       padding: 30px 20px; } 
+     section .block .block {
+      padding: 80px 50px 0 0; }}
+    @media screen and (max-width: 1000px) {
       section .block {
-        padding: 30px 20px; } }
+        padding: 30px 20px; } 
+      section .block .block {
+      padding: 0 0 0 0; }}
+
     section .block img {
       max-width: 100%; }
-    section .block .block {
-      padding: 80px 50px; }
-      section .block .block.small {
+    
+    section .block .block.small {
         padding: 50px; }
-  section.work {
+
+    section.work {
     max-width: 1400px;
     padding-top: 20px; }
   @media screen and (min-width: 1300px) {
@@ -1251,26 +1256,26 @@ header {
     padding: 30px 0; } }
 
 .dark-slide .brand:hover {
-  color: #ccc; }
+  color: #403E3B; }
 .dark-slide .next-slide {
   cursor: url(../images/slide-right.png), auto; }
 .dark-slide .prev-slide {
   cursor: url(../images/slide-left.png), auto; }
 .dark-slide #navigation .trigger .bar {
-  background: #fff; }
+  background: #403E3B; }
 @media screen and (min-width: 767px) {
   .dark-slide #navigation a {
-    color: #fff; }
+    color: #403E3B; }
   .dark-slide #navigation li:hover {
-    background: #403E3B; }
+    background: #fff; }
   .dark-slide #navigation li ul li {
-    background: #403E3B; }
+    background: #fff; }
     .dark-slide #navigation li ul li:hover {
-      background: #fff; } }
+      background: #403E3B; } }
 .dark-slide header * {
-  color: #fff; }
+  color: #403E3B; }
 .dark-slide header.affix #navigation li:hover {
-  background: #fff !important; }
+  background: #403E3B !important; }
 .dark-slide header.affix #navigation li:hover a {
   color: #403E3B !important; }
 .dark-slide header.affix #navigation li:hover ul li a {
