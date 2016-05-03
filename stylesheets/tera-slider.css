@@ -15,7 +15,7 @@ Made by Themanoid
   z-index: 1; }
   @media screen and (min-width: 900px) {
       .slider {
-        padding: 100px 200px;}}
+        padding: 0;}}
 
   .slider * {
     -webkit-transform: translateZ(0); }
