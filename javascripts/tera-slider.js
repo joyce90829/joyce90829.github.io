@@ -68,7 +68,7 @@ Made by Themanoid
             $slides.width($sliderWidth*slideCount);
             $slides.css('margin-left', -$sliderWidth*($curSlide)+'px');
             $(this).find('li.slide').width(100/slideCount+'%');
-            $(this).find('li.slide').height($(this).height());
+            //$(this).find('li.slide').height($(this).height());
         });
     }
 

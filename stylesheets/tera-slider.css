@@ -16,7 +16,6 @@ Made by Themanoid
   @media screen and (min-width: 900px) {
       .slider {
         padding: 0;}}
-
   .slider * {
     -webkit-transform: translateZ(0); }
   .slider ul.slides {
@@ -48,6 +47,9 @@ Made by Themanoid
       -moz-transition: all 1.1s cubic-bezier(0.35, 0.085, 0.305, 1.005);
       -o-transition: all 1.1s cubic-bezier(0.35, 0.085, 0.305, 1.005);
       transition: all 1.1s cubic-bezier(0.35, 0.085, 0.305, 1.005); }
+      .slider ul.slides li.slide img{
+              width: 100%;
+      }
       .slider ul.slides li.slide h1, .slider ul.slides li.slide h2, .slider ul.slides li.slide h3, .slider ul.slides li.slide h4, .slider ul.slides li.slide h5, .slider ul.slides li.slide h6, .slider ul.slides li.slide p {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$ms)";
         filter: alpha(opacity=1);
