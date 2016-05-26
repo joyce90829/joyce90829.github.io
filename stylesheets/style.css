@@ -266,10 +266,10 @@ ul.comments {
         bottom: 10px; } }
 
 .service {
-  padding: 20px 0; }
+  padding: 25px 0; }
   .service .fa {
     margin-top: 15px;
-    font-size: 2em;
+    font-size: 3em;
     float: right; }
   @media screen and (max-width: 992px) {
     .service .fa {
