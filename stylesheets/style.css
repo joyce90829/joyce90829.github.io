@@ -27,11 +27,11 @@ Made by Themanoid
 @import url("tera-lightbox.css");
 ::selection {
   background: yellow;
-  color: #403E3B; }
+  color: #444; }
 
 ::-moz-selection {
   background: yellow;
-  color: #403E3B; }
+  color: #444; }
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -47,7 +47,7 @@ html, body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   background: #fff;
-  color: #403E3B;
+  color: #444;
   width: 100%;
   height: 100%;
   min-height: 100%;
@@ -102,7 +102,7 @@ body {
       text-align: center; } }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #403E3B;
+  color: #444;
   font-weight: normal; }
 
 h1 {
@@ -117,14 +117,14 @@ h4 {
   font-family: "Inconsolata", sans-serif;
   font-weight: 400;
   font-size: 1em;
-  border-bottom: 1px solid #403E3B;
+  border-bottom: 1px solid #444;
   padding-bottom: 5px; }
 
 p {
   font-size: 1em;
   line-height: 1.6em;
   font-family: "Inconsolata", sans-serif;
-  color: #888;
+  color: #444;
   margin: 10px 0 30px 0; }
   p a {
     font-weight: bold; }
@@ -138,7 +138,8 @@ blockquote {
 
 strong {
   font-weight: bold;
-  color: #403E3B; }
+  color: #444; 
+background-color: yellow}
 
 .subtitle {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$ms)";
@@ -212,7 +213,7 @@ ul.comments {
         margin-right: 10px;
         background: #ddd; }
         ul.comments li.comment .user a.btn:hover {
-          background: #403E3B; }
+          background: #444; }
     ul.comments li.comment .comment-body {
       padding: 0 25px;
       display: block;
@@ -224,7 +225,7 @@ ul.comments {
         margin-bottom: 15px; }
 
 .back-to-top {
-  background: #403E3B;
+  background: #444;
   width: 40px;
   height: 40px;
   position: fixed;
@@ -290,10 +291,10 @@ ul.comments {
   float: left;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #403E3B;
+  color: #444;
   font-weight: 300; }
   .brand:hover {
-    color: #403E3B;
+    color: #444;
     text-decoration: none; }
 
 .fa-icon {
@@ -306,7 +307,7 @@ figure.profile {
   }
   figure.profile .social a.icon {
     text-align: center;
-    color: #403E3B;
+    color: #444;
     background: #eee;
     font-size: 22px;
     height: 36px;
@@ -322,7 +323,7 @@ figure.profile {
     -o-transition: all 0.2s cubic-bezier(0.35, 0.085, 0.305, 1.005);
     transition: all 0.2s cubic-bezier(0.35, 0.085, 0.305, 1.005); }
     figure.profile .social a.icon:hover {
-      background: #403E3B;
+      background: #444;
       color: #eee;
       text-decoration: none; }
   figure.profile .avatar img {
@@ -354,7 +355,7 @@ input.form-element, textarea.form-element {
   -moz-box-shadow: inset 0 0 0 #ddd;
   -ms-box-shadow: inset 0 0 0 #ddd;
   box-shadow: inset 0 0 0 #ddd;
-  color: #403E3B !important;
+  color: #444 !important;
   margin: 7px 0;
   padding: 10px 20px;
   width: 100%;
@@ -410,7 +411,7 @@ textarea.form-element {
     -ms-box-shadow: 0 0 0 0;
     box-shadow: 0 0 0 0; }
     .progress .progress-bar.progress-bar-gray {
-      background: #403E3B; }
+      background: #444; }
 
 .nav-tabs li a {
   -webkit-border-radius: 0;
@@ -419,7 +420,7 @@ textarea.form-element {
   border-radius: 0;
   color: #aaa; }
   .nav-tabs li a.active {
-    color: #403E3B; }
+    color: #444; }
 
 .tab-content {
   border: 1px solid #ddd;
@@ -448,7 +449,7 @@ textarea.form-element {
   -o-transition: all 0.2s cubic-bezier(0.35, 0.085, 0.305, 1.005);
   transition: all 0.2s cubic-bezier(0.35, 0.085, 0.305, 1.005); }
   .btn.btn-default {
-    background: #403E3B; }
+    background: #444; }
     .btn.btn-default:hover, .btn.btn-default.active {
       background: #222;
       color: #fff; }
@@ -484,7 +485,7 @@ textarea.form-element {
     -o-transition: all 0.3s cubic-bezier(0.35, 0.085, 0.305, 1.005);
     transition: all 0.3s cubic-bezier(0.35, 0.085, 0.305, 1.005); }
     #navigation li a {
-      color: #403E3B;
+      color: #444;
       font-family: "Inconsolata", sans-serif;
       display: inline-block;
       padding: 5px 10px; }
@@ -531,7 +532,7 @@ textarea.form-element {
         #navigation li:hover ul li {
           padding: 0; }
           #navigation li:hover ul li:hover {
-            background: #403E3B; }
+            background: #444; }
   @media screen and (max-width: 767px) {
     #navigation {
       padding: 5px 0;
@@ -549,7 +550,7 @@ textarea.form-element {
         #navigation li:last-child {
           padding: 5px; }
         #navigation li ul li:hover {
-          background: #403E3B !important; }
+          background: #444 !important; }
         #navigation li ul li:last-child {
           padding: 0; } }
 
@@ -632,7 +633,7 @@ section {
       font-size: 1.1em; }
     section.jumbotron p {
       font-size: 1.1em;
-      color: #403E3B; }
+      color: #444; }
     section.jumbotron .btn {
       margin-bottom: 10px; }
     section.jumbotron section {
@@ -727,7 +728,7 @@ section {
         position: absolute;
         z-index: 3;
         text-align: center;
-        color: #403E3B !important; }
+        color: #444 !important; }
   .sidebar ul.list {
     list-style: none;
     padding: 0; }
@@ -739,14 +740,14 @@ section {
       -o-transition: all 0.2s cubic-bezier(0.35, 0.085, 0.305, 1.005);
       transition: all 0.2s cubic-bezier(0.35, 0.085, 0.305, 1.005); }
       .sidebar ul.list li a {
-        color: #403E3B;
+        color: #444;
         font-family: "Inconsolata", sans-serif;
         font-size: .9em; }
         .sidebar ul.list li a:hover {
           text-decoration: none; }
       .sidebar ul.list li:hover {
         padding: 10px;
-        border-bottom: 1px solid #403E3B; }
+        border-bottom: 1px solid #444; }
 
 .content {
   padding: 60px 0; }
@@ -764,7 +765,7 @@ a.blog-item {
     border: 0;
     padding: 0;
     position: relative;
-    background: #403E3B; }
+    background: #444; }
     a.blog-item .thumbnail img {
       -webkit-transition: opacity 0.2s cubic-bezier(0.35, 0.085, 0.305, 1.005);
       -moz-transition: opacity 0.2s cubic-bezier(0.35, 0.085, 0.305, 1.005);
@@ -775,7 +776,7 @@ a.blog-item {
       right: 0;
       top: 0;
       padding: 0 0 10px 10px;
-      color: #403E3B;
+      color: #444;
       background: #fff;
       z-index: 9; }
   a.blog-item:hover {
@@ -809,7 +810,7 @@ footer {
     height: 30px;
     line-height: 30px;
     text-align: center;
-    color: #403E3B;
+    color: #444;
     cursor: pointer;
     -webkit-transition: color 0.3s cubic-bezier(0.35, 0.085, 0.305, 1.005);
     -moz-transition: color 0.3s cubic-bezier(0.35, 0.085, 0.305, 1.005);
@@ -935,7 +936,7 @@ footer {
             top: 0;
             right: 10px;
             position: absolute;
-            color: #403E3B; }
+            color: #444; }
             @media screen and (max-width: 1200px) {
               #grid .item.cap-2 .inner .caption .field {
                 display: none; } }
@@ -945,9 +946,9 @@ footer {
             padding-bottom: 0; }
             #grid .item.cap-2 .inner .caption .titles .title {
               text-transform: none;
-              color: #403E3B; }
+              color: #444; }
             #grid .item.cap-2 .inner .caption .titles .subtitle {
-              color: #403E3B; }
+              color: #444; }
   #grid.no-spacing {
     margin: 30px 0;
     width: 100%; }
@@ -999,7 +1000,7 @@ footer {
     -webkit-transform: scale(0.95, 0.95);
     -moz-transform: scale(0.95, 0.95);
     transform: scale(0.95, 0.95);
-    background: #403E3B;
+    background: #444;
     position: absolute;
     left: 0;
     right: 0;
@@ -1068,7 +1069,7 @@ footer {
   -o-transition: background 0.3s cubic-bezier(0.35, 0.085, 0.305, 1.005);
   transition: background 0.3s cubic-bezier(0.35, 0.085, 0.305, 1.005); }
   #filter-trigger:hover {
-    background: #403E3B; }
+    background: #444; }
   @media screen and (max-width: 992px) {
     #filter-trigger {
       float: left;
@@ -1094,7 +1095,7 @@ footer {
       color: #fff;
       border: 0;
       background: transparent;
-      background: #403E3B; }
+      background: #444; }
       #filters li button:focus, #filters li button:active {
         outline: none;
         -webkit-appearance: none;
@@ -1156,7 +1157,7 @@ header {
     transition: color 0.25s cubic-bezier(0.35, 0.085, 0.305, 1.005); }
   header.affix {
     padding-top: 0;
-    background: #403E3B; }
+    background: #444; }
     header.affix * {
       color: #bbb !important; }
     header.affix .brand {
@@ -1165,7 +1166,7 @@ header {
     header.affix #navigation {
       margin-top: 0; }
       header.affix #navigation li:hover a {
-        color: #403E3B !important; }
+        color: #444 !important; }
       header.affix #navigation li ul li:hover a {
         color: #fff !important; }
       header.affix #navigation li:hover ul {
@@ -1185,7 +1186,7 @@ header {
         padding-top: 8px;
         cursor: pointer; }
         header #navigation .trigger .bar {
-          background: #403E3B;
+          background: #444;
           width: 100%;
           height: 1px;
           margin-bottom: 9px;
@@ -1256,32 +1257,32 @@ header {
     padding: 30px 0; } }
 
 .dark-slide .brand:hover {
-  color: #403E3B; }
+  color: #444; }
 .dark-slide .next-slide {
   cursor: url(../images/slide-right.png), auto; }
 .dark-slide .prev-slide {
   cursor: url(../images/slide-left.png), auto; }
 .dark-slide #navigation .trigger .bar {
-  background: #403E3B; }
+  background: #444; }
 @media screen and (min-width: 767px) {
   .dark-slide #navigation a {
-    color: #403E3B; }
+    color: #444; }
   .dark-slide #navigation li:hover {
     background: #fff; }
   .dark-slide #navigation li ul li {
     background: #fff; }
     .dark-slide #navigation li ul li:hover {
-      background: #403E3B; } }
+      background: #444; } }
 .dark-slide header * {
-  color: #403E3B; }
+  color: #444; }
 .dark-slide header.affix #navigation li:hover {
-  background: #403E3B !important; }
+  background: #444 !important; }
 .dark-slide header.affix #navigation li:hover a {
-  color: #403E3B !important; }
+  color: #444 !important; }
 .dark-slide header.affix #navigation li:hover ul li a {
   color: #bbb !important; }
   .dark-slide header.affix #navigation li:hover ul li a:hover {
-    color: #403E3B !important; }
+    color: #444 !important; }
 
 /*--------------------
 
