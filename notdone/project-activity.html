@@ -40,25 +40,22 @@
               <a href='index.html'>Work</a>
               <ul>
                 <li>
-                  <a href='project-networkconfig.html'>Network Configuration</a>
+                  <a href='portfolio.html'>Default portfolio</a>
                 </li>
                 <li>
-                  <a href='project-softwareupgrade.html'>Software Upgrade</a>
+                  <a href='portfolio-no-spacing.html'>Portfolio no-spacing</a>
                 </li>
                 <li>
-                  <a href='project-activity.html'>Activity by Path/Client</a>
+                  <a href='portfolio-3-columns.html'>3 Columns portfolio</a>
                 </li>
                 <li>
-                  <a href='project-funprojects.html'>Illustrations</a>
+                  <a href='portfolio-lightbox.html'>Lightbox portfolio</a>
                 </li>
                 <li>
-                  <a href='project-canary.html'>Canary Project</a>
+                  <a href='portfolio-caption.html'>Caption portfolio</a>
                 </li>
                 <li>
-                  <a href='project-outofbox.html'>Out of Boxing Exprience </a>
-                </li>
-                <li>
-                  <a href='project-travelguide.html'>Seattle Travel Guide</a>
+                  <a href='single.html'>Single page</a>
                 </li>
               </ul>
             </li>
@@ -69,9 +66,9 @@
         </section>
       </header>
       <section class='jumbotron medium'>
-        <div class='bg blur' style='background-image:url(images/projects/canary2.png);'></div>
+        <div class='bg' style='background-image:url(images/projects/11.png);'></div>
         <section class='text-center'>
-          <h1>Canary Comment System</h1>
+          <h1>Redesign Network Config Page</h1>
         </section>
       </section>
       <section class='wide'>
@@ -79,13 +76,13 @@
           <div class='row'>
             <div class='col-md-8'>
               <h4>Project Introduction</h4>
-              <p>Our 4-person team designed and implemented a comment management system for 27 libraries in the Seattle Public Library system. The purpose of the project is to collect, manage, and save the communication between patrons and staff in the Seattle Public library and improve library patrons’ experience in the library. By creating a homegrown correspondence management system, it will not only help with timeliness and accountability in responding to patron comments but automate the workflow between staff and leadership in the Seattle Public library.</p>
+              <p>This two-month project is what I recently worked on at Qumulo. As the UX designer of this project, I was overseeing UX from the conception stage to launch. Collaborating with the dev team and PM, I defined the project scope, wrote user stories and came up with the design solution and usability test plan. By launching the new network configuration page with more functionalities, we enable users to have a better experience when managing their network environment.</p>
             </div>
             <div class='col-md-2 '>
-              <h4>Client</h4>
-              <p>Seattle Public Library</p>
+              <h4>Company</h4>
+              <p>Qumulo</p>
               <h4>Created</h4>
-              <p>06/2014</p>
+              <p>09/2016</p>
             </div>
             <div class='col-md-2'>
               <h4>Role</h4>
@@ -99,13 +96,15 @@
           <div class='row'>
             <div class='col-md-8'>
                <div class='block'>
-                <h3>Where the idea is originated from?</h3>
-                <p>The Seattle Public Library has thousands of patrons, includes 27 locations, and receives feedback and comments through a variety of communication channels: chat, email, phone, in person, printed form, the website, and social media. Due to the volume and various channels of incoming comments, it is hard for library staff and leadership to manually manage comments. </p>
-                <p>A centralized system will help library staff improve the efficiency of managing those comments. That's why we come up with the idea of designing this standalone, centralized system to collect, store, manage, and share comments.</p>
+                <h3>Before redesign</h3>
+                <p>The current UI enables the users (personified as storage generalist Gerald) to connect the system - Qumulo Core, to either one static network or one DHCP network. As we have more users, the user needs diversified. Another type of user (personified as storage admin Stanley) wants to connect the system to multiple networks. This new user need drove the redesign work.</p>
+                <h3>What's the goal of this project?</h3>
+                <p>Through the newly designed UI, the users (both Stanley and Gerald) will be able to connect the system to multiple networks, view the status of each network, management multiple networks and switch between DHCP and Static protocol. </p>
               </div>
           </div>
             <div class='col-md-4'>
-              <img class="fadeIn" src="images/projects/canary/commentform.jpg" />
+              <img class="fadeIn" src="images/projects/networkconfig/oldconfigpage.png" />
+              <h5 align="center">Old Config Page</h5>
             </div>
           </div>
           </div>
@@ -114,23 +113,50 @@
           <div class='block'>
           <div class='row'>
             <div class='col-md-12'>
-                <h3>Design Goal</h3>
-                <p>It was a pain for the staff to find and manage enormous comments from patrons everyday. The comments come from different channels e.g. the comment forms, calls, emails and chat at front desk. A lot of those comments need to be resolved or taken actions in time. Also resolving those comments may require different stakeholders participance. One of the design goals is to use this tool to help library staff improve the efficiency of managing those comments.</p>
+               <h3>Design Process</h3>
+               <h5>1. User Research</h5>
+               <p>The PM had talked with a lot of users before this project started and generated a rough idea of what the new function Stanley needs. Based on that, I started interviewing our customer support team to prioritize the users needs.</p>
+               <h5>2. BrainStorming</h5>
+               <div class='col-md-6'>
+               <img src="images/projects/networkconfig/notes.JPG"/>
+                <h5 align="center">Notes from brainstorming session</h5>
+               </div>
+               <div class='col-md-6'>
+                <img src="images/projects/networkconfig/ux flow.JPG"/>
+                <h5 align="center">UX flow draft</h5>
+               </div>
+               <h5>3. Create UX flow</h5>
+               <p>Collaborating with PM and engineers, I defined the scope of FSV(first sellable version) as well as its relevant user stories in prioritized order.</p>
+               <img src="images/projects/networkconfig/future_ux_flow_diagram.png"/>
+                <h5 align="center">UX flow diagram</h5>
+               <h5>4. Sketch and wireframe</h5>
+               <div class='col-md-6'>
+               <img src="images/projects/networkconfig/wireframe.png"/>
+                <h5 align="center">Wireframe - Network Summary Page</h5>
+               </div>
+               <div class='col-md-6'>
+                <img src="images/projects/networkconfig/wireframe2.png"/>
+                <h5 align="center">Wireframe - Edit a Network Page</h5>
+               </div>
+               <h5>5. Usability Test</h5>
+                  <p>We conducted usability tests with 10 people from our customer base. After the usability tests, we found out the new set of design is well understood by both types of users Stanley and Gerald. There were no major stumbling point for users when they were trying to accomplish the tasks.</p>
+                  <p> Here’s a quote from one of our users:<blockquote>“Seems really straightforward - it’s probably the most complicated set up to config of cluster - it’s really simple, especially compared to other system that I’m used to.”</blockquote></p>
+                <h5>6. High-fidelity Design and Specification</h5>
+                  <p>After the usability tests, I feel pretty confident about the design. After making several tweaks based on usability test feedback, I moved to visual design and specification part. 
             </div>
-            <div class='col-md-12'>
-                <h3>Solution</h3>
-                <p>After interviewing some staff in the library, we came up with the idea of categorizing and staging those comments. The category will give users an idea what the comment is about. And assigning status for each comment will help to expose the comments which get stuck in the process and call to actions. Whenever users create a comment, there will be multiple metadata associated with each comment created at the same time. Users later can filter out the comments using those metadata.</p>
-            </div>
+           
              <div class='col-md-12'>
-                <h3>Process</h3>
+                <h3>What I learned from this project?</h3>
+                  <h5>Persona</h5>
+                  <h5>Interative Development</h5>
             </div>
             <div class='col-md-3'>
-                <p>1. User interview</p>
-                <p>2. Brainstorming</p>
-                <p>3. Stakeholder reviews R1 - concept</p>
+                <h5>Persona</h5>
+                <h5>2. Brainstorming</h5>
+                <h5>3. Stakeholder reviews R1 - concept</h5>
             </div>
             <div class='col-md-5'>
-              <p>4. Sketches/Wireframes + Preliminary web development</p>
+              <h5>4. Sketches/Wireframes + Preliminary web development</h5>
               <h5>5. Stakeholder reviews R2 - feature scope and design review</h5>
               <h5>6. Usability testing session 1</h5>
             </div>
@@ -141,32 +167,12 @@
             </div>
             </div>
             <div class='row'>
-            <div class='col-md-12'>
-                <img src="images/projects/canary/Artifacts_small.png"/>
-                <h5 align="center">Artifacts <a href="https://drive.google.com/folderview?id=0B-NAUX_AC9Oibm1YcHpzT3d4TE0&usp=sharing">(Larger Picture Link)</a></h5>
-            </div>
+            
           </div>
         </div>
           </section>
-           <section class='wide gray'>
-         <div class='block'>
-          <div class='row'>
-            <div class='col-md-6'>
-              <div class='block'>
-                <img class="fadeIn" src="images/projects/canary/poster.png" />
-                <h5 align="center">Poster</h5>
-              </div>
-            </div>
-            <div class='col-md-6'>
-              <div class='block'>
-                <img class="fadeIn" src="images/projects/canary/landingpage.png" />
-                <h5 align="center">Landing Page</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-          <section class='wide'>
+           
+          <section class='wide gray'>
          <div class='block'>
           <div class='row'>
             <div class='col-md-4'>
@@ -240,18 +246,7 @@
   </div>
 </div>
 </section>
-     <section class="wide gray">
-          <div class="block">
-            <div class='row'>
-                <div class='col-md-12'>
-                <h3>Project Intro Video</h3>
-                <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eE21YsFDzgc" frameborder="0" allowfullscreen></iframe>
-                </div>
-                </div>
-        </div>
-        </div>
-          </section>
+    
       <section class='block'>
         <div class='row'>
           <div class='col-md-12'>
