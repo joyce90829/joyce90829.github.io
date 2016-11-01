@@ -40,22 +40,25 @@
               <a href='index.html'>Work</a>
               <ul>
                 <li>
-                  <a href='portfolio.html'>Default portfolio</a>
+                  <a href='project-networkconfig.html'>Network Configuration</a>
                 </li>
                 <li>
-                  <a href='portfolio-no-spacing.html'>Portfolio no-spacing</a>
+                  <a href='project-softwareupgrade.html'>Software Upgrade</a>
                 </li>
                 <li>
-                  <a href='portfolio-3-columns.html'>3 Columns portfolio</a>
+                  <a href='project-activity.html'>Activity by Path/Client</a>
                 </li>
                 <li>
-                  <a href='portfolio-lightbox.html'>Lightbox portfolio</a>
+                  <a href='project-funprojects.html'>Illustrations</a>
                 </li>
                 <li>
-                  <a href='portfolio-caption.html'>Caption portfolio</a>
+                  <a href='project-canary.html'>Canary Project</a>
                 </li>
                 <li>
-                  <a href='single.html'>Single page</a>
+                  <a href='project-outofbox.html'>Out of Boxing Exprience </a>
+                </li>
+                <li>
+                  <a href='project-travelguide.html'>Seattle Travel Guide</a>
                 </li>
               </ul>
             </li>
@@ -66,9 +69,9 @@
         </section>
       </header>
       <section class='jumbotron medium'>
-        <div class='bg blur' style='background-image:url(images/projects/05.png);'></div>
+        <div class='bg' style='background-image:url(images/projects/11.png);'></div>
         <section class='text-center'>
-          <h1>Out of Boxing Experience</h1>
+          <h1>Redesign Network Config Page</h1>
         </section>
       </section>
       <section class='wide'>
@@ -76,13 +79,13 @@
           <div class='row'>
             <div class='col-md-8'>
               <h4>Project Introduction</h4>
-              <p>The UX team is redesigning the out of boxing experience(OOBE) for Qumulo Core product. There are two steps in the product installation process: installing the hardware and setting up the software. Previously, OOBE barely existed because the installation process is done by Qumulo customer support, which takes a lot of efforts and resources. The goal of this project is to optimize the installation process by enabling users to install and configure the product by themselves in an intuitive and easy way. </p>
+              <p>This two-month project is what I recently worked on at Qumulo. As the UX designer of this project, I was overseeing UX from the conception stage to launch. Collaborating with the dev team and PM, I defined the project scope, wrote user stories and came up with the design solution and usability test plan. By launching the new network configuration page with more functionalities, we enable users to have a better experience when managing their network environment.</p>
             </div>
             <div class='col-md-2 '>
               <h4>Company</h4>
               <p>Qumulo</p>
               <h4>Created</h4>
-              <p>06/2014</p>
+              <p>09/2016</p>
             </div>
             <div class='col-md-2'>
               <h4>Role</h4>
@@ -92,98 +95,139 @@
         </div>
       </section>
       <section class='wide gray'>
-        <div class='block'>
+      <div class="block">
           <div class='row'>
             <div class='col-md-8'>
                <div class='block'>
-                <h3>Why Does Out of Boxing Experience Matter?</h3>
-                <p>The user experience is more than the satisfaction users get from interacting with the software. It is about the comprehensive experience users get from purchasing, setting up the product, using it day to day, and seeking assistance from customer support.</p>
-                <p>For our product, the user's journey starts from the moment when they lift the packaging box. A good first impression is critical since the opinions users formed through first several interactions with the product will go a long way in building the trust between users and the brand.</p>
+                <h3>Before redesign</h3>
+                <p>The current UI enables the users (personified as storage generalist Gerald) to connect the system - Qumulo Core, to either one static network or one DHCP network. As we have more users, the user needs diversified. Another type of user (personified as storage admin Stanley) wants to connect the system to multiple networks. This new user need drove the redesign work.</p>
+                <h3>What's the goal of this project?</h3>
+                <p>Through the newly designed UI, the users (both Stanley and Gerald) will be able to connect the system to multiple networks, view the status of each network, management multiple networks and switch between DHCP and Static protocol. </p>
               </div>
           </div>
             <div class='col-md-4'>
-            <div class='block'>
-              <img class="fadeIn" src="images/projects/oobe/stackofboxes.JPG" />
+              <img class="fadeIn" src="images/projects/networkconfig/oldconfigpage.png" />
+              <h5 align="center">Old Config Page</h5>
             </div>
-            </div>
           </div>
           </div>
-          </section>
-        <section class='wide'>
-        <div class='block'>
-          <div class='row'>
-          <div class='col-md-12'>
-                <h3>Research Methods</h3>
-                <h5>1. Onsite observations</h5>
-                <p>During 5 of 8 total onsite trips, we observed users’ environment, how they performed installation process and what their common workflow is.</p>
-                <h5>2. User interviews</h5>
-                <p>We asked open questions about their previous installation process and opinions on the Quick Start Guide we provided them for reference.</p>
-                <h5>3. Onsite usability tests</h5>
-                <p>We brought copies of the Quick Start Guide drafts and asked users to follow the instructions on the guide to install the product by themselves. </p>
-          </div>
-          </div>
-          </div>
-          </section>
-          <section class="wide gray">
+           </section>
+      <section class='wide'>
           <div class='block'>
-          	 <div class='row'>
-          	 <div class='col-md-12'>
-              <h3>Project Outcomes</h3>
-                <p>Delivering out of box experience requires multiple departments collaborations since it is associated with product purchasing, ordering, packaging and delivering. In the end of this project, the UX team designed <strong>a tri-fold quick start guide</strong> to help users install the hardware and software by themselves, as well as made recommendation the formalized process recommendations across Sales, marketing, customer support, hardware and operations teams.</p>
-            </div>
-             </div>
-             <div class="row">
-             <div class='col-md-12'>
-              <h4>One Side</h4>
-              <img class="fadeIn" src="images/projects/oobe/QSG-1.jpg" />
+          <div class='row'>
+            <div class='col-md-12'>
+               <h3>Design Process</h3>
+               <h5>1. User Research</h5>
+               <p>The PM had talked with a lot of users before this project started and generated a rough idea of what the new function Stanley needs. Based on that, I started interviewing our customer support team to prioritize the users needs.</p>
+               <h5>2. BrainStorming</h5>
+               <div class='col-md-6'>
+               <img src="images/projects/networkconfig/notes.JPG"/>
+                <h5 align="center">Notes from brainstorming session</h5>
+               </div>
+               <div class='col-md-6'>
+                <img src="images/projects/networkconfig/ux flow.JPG"/>
+                <h5 align="center">UX flow draft</h5>
+               </div>
+               <h5>3. Create UX flow</h5>
+               <p>Collaborating with PM and engineers, I defined the scope of FSV(first sellable version) as well as its relevant user stories in prioritized order.</p>
+               <img src="images/projects/networkconfig/future_ux_flow_diagram.png"/>
+                <h5 align="center">UX flow diagram</h5>
+               <h5>4. Sketch and wireframe</h5>
+               <div class='col-md-6'>
+               <img src="images/projects/networkconfig/wireframe.png"/>
+                <h5 align="center">Wireframe - Network Summary Page</h5>
+               </div>
+               <div class='col-md-6'>
+                <img src="images/projects/networkconfig/wireframe2.png"/>
+                <h5 align="center">Wireframe - Edit a Network Page</h5>
+               </div>
+               <h5>5. Usability Test</h5>
+                  <p>We conducted usability tests with 10 people from our customer base. After the usability tests, we found out the new set of design is well understood by both types of users Stanley and Gerald. There were no major stumbling point for users when they were trying to accomplish the tasks.</p>
+                  <p> Here’s a quote from one of our users:<blockquote>“Seems really straightforward - it’s probably the most complicated set up to config of cluster - it’s really simple, especially compared to other system that I’m used to.”</blockquote></p>
+                <h5>6. High-fidelity Design and Specification</h5>
+                  <p>After the usability tests, I feel pretty confident about the design. After making several tweaks based on usability test feedback, I moved to visual design and specification part. 
             </div>
           </div>
-            <div class="row">
-            <div class='col-md-12'>
-              <h4>The Other Side</h4>
-              <img class="fadeIn" src="images/projects/oobe/QSG-2.jpg" />
-            </div>
-            </div>
-            </div>
-          </section>
-        <section class='wide'>
+        </div>
+      </section>
+           <section class='wide gray'>
          <div class='block'>
           <div class='row'>
-            <div class='col-md-12'>
-                <h3>Goal of Designing Quick Start Guide</h3>
-                  <p>Guide users through the process of unpacking, setting up and using the hardware/software for the first time. 
-                  </p>
-              </div>
-              <div class='col-md-12'>
-                <img class="fadeIn" src="images/projects/oobe/Process.png" />
-                <h5 align="center">Steps of Installing the Product and Guidance</h5>
+             <div class='col-md-12'>
+                <h3>What I learned from this project?</h3>
+                  <h5>1. Persona</h5>
+                  <p>As we are having more and more users, the new design needs to satisfies both Gerald, the generalist and Stanley the specialist.
+The old design satisfied the need of our user Gerald who is a generalist. In order to meet the needs of Stanley, the complexity of the new design increased compared with the old one. For example, Stanley wants to be able to change the bond settings of the cluster while Gerald only wants to use the default bond settings. The challenge here is how to make sure Gerald can still accomplish his work easily without being confused by the new expertise.</p>
+                  <h5>2. Iterative Development</h5>
+                  <p>Another thing I learned from this project is about how to build the product incrementally and iteratively, aka design iteratively. When I started designing, I tend to think the design in a complete picture. But that doesn’t always ends up being implemented fully because we don’t have resources and time to build the full set of design at once. The challenge is not thinking what is possible  but what is necessary, how do we deliver the feature incrementally at the same time delivering values to our users.</p>
             </div>
-         </div>
+            </div>
+        </div>
+      </section>
+          <section class='wide'>
+         <div class='block'>
+          <div class='row'>
+            <div class='col-md-4'>
+              <div class='block'>
+                <h3>Final Product Screenshots</h3>
+                  <p>- Summary - 1 DHCP network
+                  <br>- Switch to Static Form 
+                  <br>- Summary - N static Networks
+                  <br>- Global Settings 
+                  </p>
+                </ul>
+              </div>
+            </div>
+          <div class='col-md-8'>
+      <div class='slider'>
+        <ul class='slides'>
+          <li class='slide'>  
+              <div class='row'>
+                  <div class='col-md-12'>
+                    <img src="images/projects/networkconfig/slides/Network_Summary-DHCP.png"/>
+                  </div>
+                 <div class='col-md-10 col-xs-6'>
+                    <h5>Summary - 1 DHCP network (Slider 1 of 4)</h5>
+                  </div>
+                </div>
+          </li>
+          <li class='slide'>  
+              <div class='row'>
+                  <div class='col-md-12'>
+                    <img src="images/projects/networkconfig/slides/Switch to Static.png"/>
+                  </div>
+                 <div class='col-md-10 col-xs-6'>
+                    <h5>Switch to Static Form (Slider 2 of 4)</h5>
+                  </div>
+                </div>
+          </li>
+          <li class='slide'>  
+              <div class='row'>
+                  <div class='col-md-12'>
+                    <img src="images/projects/networkconfig/slides/Networksummary-nstatic.png"/>
+                  </div>
+                 <div class='col-md-10 col-xs-6'>
+                    <h5>Summary - N static Networks(Slider 3 of 4)</h5>
+                  </div>
+                </div>
+          </li>
+          <li class='slide'>  
+              <div class='row'>
+                  <div class='col-md-12'>
+                    <img src="images/projects/networkconfig/slides/form-globalsettings.png"/>
+                  </div>
+                 <div class='col-md-10 col-xs-6'>
+                    <h5>Global Settings (Slider 4 of 4)</h5>
+                  </div>
+                </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 </section>
-      <section class='wide gray'>
-         <div class='block'>
-          <div class='row'>
-            <div class='col-md-12'>
-                <h3>Things We Consider When Designing Quick Start Guide:</h3>
-                  <h5>1. Minimize the packaging waste</h5> 
-                  <h5>2. Make sure users have everything to get started</h5> 
-                  <h5>3. Make sure the instructions are short and easy to understand</h5> 
-                  <h5>4. Branding</h5> 
-              </div>
-              <div class='col-md-12'>
-                <h3>Design Process</h3>
-                  <h5>- Onsite observations</h5> 
-                  <h5>- Customer interviews</h5> 
-                  <h5>- First draft of OOBE info sheet</h5> 
-                  <h5>- Onsite usability tests and observations, gather feedback from users (quotes from customers)</h5>
-                  <h5>- Iterations of OOBE info sheet</h5>
-                  <h5>- Internal stakeholders review</h5>
-                  <h5>- Process improvement (Sales team, Operations team, Customers success team)</h5>
-                  <h5>- Finalize OOBE info sheet</h5>
-              </div>
-</div>
-      </section>
+    
       <section class='block'>
         <div class='row'>
           <div class='col-md-12'>
@@ -194,40 +238,40 @@
         </div>
         <ul class='col-3' id='grid'>
           <li class='item'>
-            <a class='inner' href='single.html' style='background:url(images/projects/17.jpg);'>
+            <a class='inner' href='' style='background:url(images/projects/softwareupgrade.png);'>
               <div class='caption'>
                 <div class='field'>
-                  Design
+                  WORK PROJECT
                 </div>
                 <div class='titles'>
-                  <div class='title'>Books</div>
-                  <div class='subtitle'>The branding</div>
+                  <div class='title'>Software Upgrade</div>
+                  <div class='subtitle'>UX/UI Design</div>
                 </div>
               </div>
             </a>
           </li>
           <li class='item'>
-            <a class='inner' href='single.html' style='background:url(https://ununsplash.imgix.net/photo-1422479516648-9b1f0b6e8da8?fit=crop&amp;fm=jpg&amp;h=725&amp;q=75&amp;w=1050);'>
+             <a class='inner' href='project-outofbox.html' style='background:url(images/projects/OOBE.jpg);'>
               <div class='caption'>
                 <div class='field'>
-                  Photography
+                  WORK PROJECT
                 </div>
                 <div class='titles'>
-                  <div class='title'>Suitable</div>
-                  <div class='subtitle'>Clothing</div>
+                  <div class='title'>Out of Boxing Experience</div>
+                  <div class='subtitle'>Print Design</div>
                 </div>
               </div>
             </a>
           </li>
           <li class='item'>
-            <a class='inner' href='single.html' style='background:url(https://unsplash.imgix.net/photo-1418479631014-8cbf89db3431?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050);'>
+              <a class='inner' href='project-travelguide.html' style='background:url(images/projects/seattletravelguide.jpg);'>
               <div class='caption'>
                 <div class='field'>
-                  Design + Identity
+                  SCHOOL PROJECT
                 </div>
                 <div class='titles'>
-                  <div class='title'>Yellow Mellow</div>
-                  <div class='subtitle'>Brand identity</div>
+                  <div class='title'>Seattle Travel Guide</div>
+                  <div class='subtitle'>Print Design</div>
                 </div>
               </div>
             </a>
