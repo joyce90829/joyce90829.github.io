@@ -74,9 +74,95 @@
           <h1>Quotas</h1>
         </section>
       </section>
-      <section class='block'>
-        <div class='row'>
-          <h2>WORK IN PROGRESS...</h2>
+       <section class='wide'>
+        <div class='block'>
+          <div class='row'>
+            <div class='col-md-8'>
+              <h4>Project Introduction</h4>
+              <p>Quotas is the project I am currently working on at Qumulo. cross team project. As the designer of this project, I collaborated with front-end and back-end engineering teams as well as PM to define the project scope and user stories. After coming up with the design, I conducted two rounds of usability tests and refined the design based on usability tests findings.</p>
+            </div>
+            <div class='col-md-2 '>
+              <h4>Company</h4>
+              <p>Qumulo</p>
+              <h4>Created</h4>
+              <p>09/2016</p>
+            </div>
+            <div class='col-md-2'>
+              <h4>Role</h4>
+              <p>UX Designer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class='wide gray'>
+      <div class="block">
+          <div class='row'>
+         <div class='col-md-12'>
+               <h2>What's the goal of this project?</h2>
+                <p>Storage Gerneralist (personalized as Gerald) can set a limit on the directories of the cluster so its end users won't over use the storage. At the same time, Gerald should be able to see how close the directory usage is hitting the limit so he can warn end users to clean up their directories soon. </p>
+                <h2>Project Timeline</h2>
+              <img class="fadeIn" src="images/projects/quotas/timeline.png" />
+            </div>  
+          </div>
+          </div>
+           </section>
+      <section class='wide'>
+          <div class='block'>
+          <div class='row'>
+            <div class='col-md-12'>
+               <h2>Design Process</h2>
+             </div>
+           </div>
+          <div class='row'>
+             <div class='col-md-12'>
+               <h5>1. User Research</h5>
+               <p>The PM had talked with a lot of users before this project started and defined the scope of the project. I started this project with competitor analysis and aim to find out what the differentiator could be for our product. </p>
+               <h5>2. User Stories</h5>
+               <div class='row'>
+               <div class='col-md-12'>
+               <h4>Basic Needs</h4>
+               <ul>
+                <li><p>Gerald can create a Quota through UI so that he can prevent end users from using too much space in the cluster.</p></li>
+                <li><p>Gerald can modify a Quota through UI so he can change the Quota limit or the Quota root.</p></li>
+                <li><p>Gerald can delete a Quota  through UI so there is no space limitation on that directory for end users any more. </p></li>
+                </ul>
+               </div>
+               <div class='col-md-12'>
+                <h4>Differentiator</h4>
+                <ul>
+                <li><p>Gerald can quickly see what quota root are hitting the quota limit soon or already exceed the quota limit so he can take actions accordingly.</p></li>
+                <li><p>Gerald can always see total provisioned quotas compared to cluster usable capacity so he can plan accordingly.</p></li>
+                </ul>
+                </div>
+             </div>
+               <h5>3. Create UX flow</h5>
+               <div class='row'>
+               <img src="images/projects/quotas/m2-ux-flow.png"/>
+                <h5 align="center">UX flow diagram</h5>
+                </div>
+               <h5>4. Wireframes design</h5>
+               <p>The design reused the pattern we currently have of our product: creating an item in the table, and edit/delete the item from the table. The benefits of reusing a pattern:</p>
+               <ul>
+                <li><p>There are no extra learning efforts needed for users who are familiar with our product. It is a consistent experience across the product.</p></li>
+                <li><p>Engineering team can reuse the pattern (react components) they have already built to build this page.</p></li>
+                </ul>
+               <div class='row'>
+               <div class='col-md-6'>
+               <img src="images/projects/quotas/v1.png"/>
+                <h5 align="center">Wireframe - Quota Summary (before usability tests)</h5>
+               </div>
+               <div class='col-md-6'>
+                <img src="images/projects/quotas/m3.png"/>
+                <h5 align="center">Wireframe - Quota Summary (after usability tests)</h5>
+               </div>
+             </div>
+               <h5>5. Usability Test</h5>
+                  <p>We conducted usability tests with 10 people from our customer base. Through the usability tests, we verified the hypothesis and found out the several minor usability issues. There were no major stumbling point for users when they were trying to accomplish the tasks.</p>
+                  <p> Here’s some quotes from one of our users:<blockquote>“(After we explained how the system will behave) That’s a whole new category of file system analytics and understanding of what users are doing under the hood that we don't currently have, that would be phenomenal.”</blockquote><blockquote>“I want to see insights. I usually use CML to set up quotas. If I come to UI, I want it to show me the trend.”</blockquote></p>
+                <h5>6. High-fidelity Design and Specification</h5>
+                  <p>After summarizing the findings and making several tweaks based on usability test feedback, I moved to visual design and specification part. 
+            </div>
+          </div>
         </div>
       </section>
      <section class='block'>
