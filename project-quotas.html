@@ -79,7 +79,7 @@
           <div class='row'>
             <div class='col-md-8'>
               <h4>Project Introduction</h4>
-              <p>Quotas is the project I am currently working on at Qumulo. cross team project. As the designer of this project, I collaborated with front-end and back-end engineering teams as well as PM to define the project scope and user stories. After coming up with the design, I conducted two rounds of usability tests and refined the design based on usability tests findings.</p>
+              <p>Quotas is a cross team project I was working on at Qumulo. We want to find a way to help the storgae admin (personalized as Gerald) to oversee his storage usage and prevent end users from over using it.</p>
             </div>
             <div class='col-md-2 '>
               <h4>Company</h4>
@@ -98,10 +98,12 @@
       <div class="block">
           <div class='row'>
          <div class='col-md-12'>
-               <h2>What's the goal of this project?</h2>
-                <p>Storage Gerneralist (personalized as Gerald) can set a limit on the directories of the cluster so its end users won't over use the storage. At the same time, Gerald should be able to see how close the directory usage is hitting the limit so he can warn end users to clean up their directories soon. </p>
-            </div> 
-              <div class='row'>
+               <h2>What's Gerald's painpoint?</h2>
+                <p>One of Gerlad's nightmares is that when he wakes up the next day morning, some end user just used most of the available space in the system. Thus no one else can use the system and it brings performance impact.</p>
+                <h2>What's the goal of design?</h2>
+                <p>Gerald can set a limit on the directories of the cluster so its end users won't over use the storage. At the same time, Gerald can see how close the directory usage is hitting the limit so he can warn end users to clean up their directories soon.</p>
+                <h2>Final design</h2>
+              </div>
                <div class='col-md-6'>
                <img src="images/projects/quotas/m3.png"/>
                 <h5 align="center">Final Design - Quota Summary</h5>
@@ -112,7 +114,6 @@
                </div>
              </div>
           </div>
-          </div>
            </section>
       <section class='wide'>
           <div class='block'>
@@ -120,25 +121,35 @@
             <div class='col-md-12'>
               <h2>Project Timeline</h2>
               <img class="fadeIn" src="images/projects/quotas/timeline.png" />
-               <h2>Design Process</h2>
+               <p>As the designer of this project, I collaborated with front-end and back-end engineering teams as well as PM to define the project scope and user stories. After coming up with the design, I conducted two rounds of usability tests and refined the design based on usability tests findings.</p>
              </div>
            </div>
+           <div class='row'>
+             <div class='col-md-12'>
+              <h2>Design Process</h2>
+            </div>
+          </div>
           <div class='row'>
              <div class='col-md-12'>
                <h5>1. User Research</h5>
                <p>The PM had talked with a lot of users before this project started and defined the scope of the project. I started this project with competitor analysis and aim to find out what the differentiator could be for our product. </p>
-               <h5>2. User Stories</h5>
+               <h5>2. Define problem and potential solutions</h5>
+               <div class='col-md-12'>
+                <h4>Problem</h4>
+                <ul>
+                <li><p>A lot of end users tend to over use capacity of the system. And it is very hard for Gerlad to find out if he doesn't set a boundrary on it.</p></li>
+                <li><p>Gerald does assign a definite space to end users. But sometimes Gerlad tends to assign more space than the total usable space of the system. He doesn't know when his storage will be filled up and how close it will be filled up. There is no visibility on that.</p></li>
+                </ul>
+                </div>
                <div class='row'>
                <div class='col-md-12'>
-               <h4>Basic Needs</h4>
+               <h4>Solutions to solve basic needs</h4>
                <ul>
-                <li><p>Gerald can create a Quota through UI so that he can prevent end users from using too much space in the cluster.</p></li>
-                <li><p>Gerald can modify a Quota through UI so he can change the Quota limit or the Quota root.</p></li>
-                <li><p>Gerald can delete a Quota  through UI so there is no space limitation on that directory for end users any more. </p></li>
+                <li><p>Gerald can create/manage a Quota through UI so that he can prevent end users from using too much space in the cluster.</p></li> 
                 </ul>
                </div>
                <div class='col-md-12'>
-                <h4>Differentiator</h4>
+                <h4>Differentiators</h4>
                 <ul>
                 <li><p>D1: Gerald can see in real-time what quota root are hitting the quota limit soon or already exceed the quota limit so he can take actions accordingly.</p></li>
                 <li><p>D2: Gerald can easily manage the directory and the quota set on it(when the directory is renamed or deleted, the quota will reflect that immedidately).</p></li>
