@@ -69,9 +69,9 @@
         </section>
       </header>
       <section class='jumbotron medium'>
-        <div class='bg' style='background-image:url(images/projects/10.png);'></div>
+        <div class='bg' style='background-image:url(images/projects/11.png);'></div>
         <section class='text-center'>
-          <h1>Quotas</h1>
+          <h1>AMood</h1>
         </section>
       </section>
        <section class='wide'>
@@ -79,17 +79,17 @@
           <div class='row'>
             <div class='col-md-offset-2 col-md-4'>
               <h4>Project Introduction</h4>
-              <p>Quotas is a cross team project I was working on at Qumulo. We want to find a way to help the storage admin (personalized as Gerald) to oversee his storage usage and prevent end users from over using it.</p>
+              <p>Have you ever wished to start off your morning in a different way rather than wake up in the alarm and hurry in every minute to work? How about being woken up by the nice smell of freshly made coffee and breakfast? AMood is a mobile app designed to make your morning experience more enjoyable.</p>
             </div>
             <div class='col-md-2'>
-              <h4>Company</h4>
-              <p>Qumulo</p>
+              <h4>Category</h4>
+              <p>Home automation</p>
               <h4>Created</h4>
               <p>09/2016</p>
             </div>
             <div class='col-md-2'>
-              <h4>Role</h4>
-              <p>UX Designer</p>
+              <h4>User</h4>
+              <p>Me (or you)</p>
             </div>
           </div>
         </div>
@@ -98,87 +98,26 @@
       <div class="block">
           <div class='row'>
          <div class='col-md-offset-2 col-md-8'>
-               <h2>Gerald's Painpoint</h2>
-                <p>One of Gerlad's nightmares is that when he wakes up the next day morning, some end user just used most of the available space in the system. Thus no one else can use the system and it brings performance impact.</p>
+               <h2>My Problem in the Morning</h2>
+                <p>The morning alarm sometimes can be so unpleasant and loud. All you want to do is turning it off and going back to sleep. So you snooze the alarm again and again… After half an hour, finally you get up. 
+                </p>
                 <h2>Goal of Design</h2>
-                <p>Gerald can set a limit on the directories of the cluster so its end users won't over use the storage. At the same time, Gerald can see how close the directory usage is hitting the limit so he can warn end users to clean up their directories soon.</p>
-                <h2>Final Design</h2>
+                <p>The goal of this project is not only just to make a coffee alarm machine but also to make our morning experience more enjoyable thus we can be more productive.</p>
+                <h3>My Inspiration </h3>
+                <img src="images/projects/amood/inspiration.png"/>
+                <h5 align="center"><a href="https://www.kickstarter.com/projects/393281213/the-barisieur-designer-coffee-and-tea-alarm-clock/description">The Barisieur: Designer Coffee & Tea Alarm Clock</a></h5>
+               </div>
               </div>
-               <div class='col-md-offset-2 col-md-8'>
-               <img src="images/projects/quotas/m3.png"/>
-                <h5 align="center">Final Design - Quota Summary</h5>
-               </div>
-               <div class='col-md-offset-2 col-md-8'>
-                <img src="images/projects/quotas/m3-create.png"/>
-                <h5 align="center">Final Design - Create Quota</h5>
-               </div>
-             </div>
-          </div>
+             </div>          
            </section>
       <section class='wide'>
-          <div class='block'>
+      <div class="block">
           <div class='row'>
             <div class='col-md-offset-2 col-md-8'>
-              <h2>Project Timeline</h2>
-              <img class="fadeIn" src="images/projects/quotas/timeline.png" />
-               <p>As the designer of this project, I collaborated with front-end and back-end engineering teams as well as PM to define the project scope and user stories. After coming up with the design, I conducted two rounds of usability tests and refined the design based on usability tests findings.</p>
-             </div>
-           </div>
-           <div class='row'>
-             <div class='col-md-offset-2 col-md-8'>
-              <h2>Design Process</h2>
-               <h3>1. User Research</h3>
-               <p>The PM had talked with a lot of users before this project started and defined the scope of the project. I started this project with competitor analysis and aim to find out what the differentiator could be for our product. </p>
-              <h3>2. Define problem and potential solutions</h3>      
-                <ul><h5>Problem</h5>
-                <li><p>A lot of end users tend to over use capacity of the system. And it is very hard for Gerlad to find out if he doesn't set a boundrary on it.</p></li>
-                <li><p>Gerald does assign a definite space to end users. But sometimes Gerlad tends to assign more space than the total usable space of the system. He doesn't know when his storage will be filled up and how close it will be filled up. There is no visibility on that.</p></li>
-                </ul>
-               <ul><h5>Solutions to solve basic needs</h5>
-                <li><p>Gerald can create/manage a Quota through UI so that he can prevent end users from using too much space in the cluster.</p></li> 
-                </ul>
-                <ul> <h5>Differentiators</h5>
-                <li><p>D1: Gerald can see in real-time which directories are hitting the quota limit soon or already exceed the quota limit so he can take actions accordingly.</p></li>
-                <li><p>D2: Gerald can easily manage the directory and the quota set on it (when the directory is renamed or deleted, the quota will reflect that immedidately).</p></li>
-                <li><p>D3: Gerald can always see total provisioned quotas compared to cluster usable capacity so he can plan accordingly.</p></li>
-                </ul>
-               <h3>3. Create UX flow</h3>
-               <div class='row'>
-               <img src="images/projects/quotas/m2-ux-flow.png"/>
-                <h5 align="center">UX flow diagram</h5>
-                </div>
-               <h3>4. Wireframes design</h3>
-               <p>The design reused the pattern we currently have of our product: creating an item in the table, and edit/delete the item from the table. The benefits of reusing a pattern:</p>
-               <ul>
-                <li><p>There are no extra learning efforts needed for users who are familiar with our product. It is a consistent experience across the product.</p></li>
-                <li><p>Engineering team can reuse the pattern (react components) they have already built to build this page.</p></li>
-                </ul>
-                <div class='row'>
-               <img src="images/projects/quotas/wireframe.png"/>
-                <h5 align="center">Wireframe - Quota Summary</h5>
-                <p>Since I am applying pattern into the design, I feel pretty confident of moving forward to the high-fi prototyping stage. And I chose to use high-fi prototype to test with users instead of wireframes.</p>
-               <h3>5. Usability Test</h3>
-                  <p>We conducted usability tests with 10 people from our customer base. Through the usability tests, we validated the hypothesis and found out the several minor usability issues. There were no major stumbling point for users when they were trying to accomplish the tasks.</p>
-                  <p><strong>hypothesis 1: The differntiator D2 is unexpected but it solves users painpoint </strong></p>
-                  <p>Result 1: Because users are so used to their old workflow, they are surprised by seeing the page updates automatically. Meanwhile they love this new way because it simplifies users current workflow.</p>
-                  <p><strong>hypothesis 2: The differentiator D3 will give users more insights in managing their data (data-aware software)</strong></p>
-                  <p>Result 2: It depends on what users typical workflow is. If they tend to over provision quotas (such as media&entertainment studios), this will be a very helpful info because it tells them when it is time to buy more storage. But for users like universities or institutes, they tend not to over provision quotas, this info is not very helpful.</p>
-                  <p> Here’s some quotes from one of our users:<blockquote>“(After we explained how the system will behave) That’s a whole new category of file system analytics and understanding of what users are doing under the hood that we don't currently have, that would be phenomenal.”</blockquote><blockquote>“I want to see insights. I usually use CML to set up quotas. If I come to UI, I want it to show me the trend.”</blockquote></p>
-                <h3>6. Refine design and specification</h3>
-                 <p>After summarizing the usability test findings, I make changes to the design and tested it again. Soon I moved to specification part.</p>
-                  <div class='col-md-6'>
-               <img src="images/projects/quotas/v1.png"/>
-                <h5 align="center">Usability tested - Quota Summary</h5>
-               </div>
-               <div class='col-md-6'>
-                <img src="images/projects/quotas/m3.png"/>
-                <h5 align="center">Refined - Quota Summary</h5>
-               </div>
-
-            </div>
+          <h3>more details coming soon...</h3>
+        </div>
           </div>
         </div>
-      </section>
      <section class='block'>
         <div class='row'>
           <div class='col-md-12'>
