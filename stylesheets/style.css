@@ -300,7 +300,7 @@ ul.comments {
   border-bottom: 1px solid #eee; }
 
 .brand {
-  font-size: 1.1em;
+  font-size: 1.2em;
   padding: 10px 0;
   width: auto;
   display: block;
@@ -501,6 +501,7 @@ textarea.form-element {
     -o-transition: all 0.3s cubic-bezier(0.35, 0.085, 0.305, 1.005);
     transition: all 0.3s cubic-bezier(0.35, 0.085, 0.305, 1.005); }
     #navigation li a {
+      font-size: 1.2em;
       color: #444;
       font-family: "Helvetica", sans-serif;
       display: inline-block;
@@ -976,15 +977,15 @@ footer {
       #grid.no-spacing .item.wide {
         width: 100%; }
   #grid.col-3 {
-    margin: 30px -1.6666%;
-    width: 103.3333%; }
+    margin: 30px -0.5%;
+    width: 101%; }
     #grid.col-3 .item {
-      width: 30%;
-      margin: 1.6666%; }
+      width: 32.33%;
+      margin: 0.5%; }
       #grid.col-3 .item.wide {
-        width: 63.3333%; }
+        width: 65.7%; }
         #grid.col-3 .item.wide:after {
-          padding-top: 37.85%; }
+          padding-top: 39.5%; }
       #grid.col-3 .item.high:after {
         padding-top: 171%; }
     #grid.col-3.no-spacing {
