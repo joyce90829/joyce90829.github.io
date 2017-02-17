@@ -306,11 +306,11 @@ ul.comments {
   display: block;
   float: left;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: #444;
-  font-weight: 300; }
+  font-weight: 500; }
   .brand:hover {
-    color: #444;
+    color: #666;
     text-decoration: none; }
 
 .fa-icon {
@@ -618,7 +618,7 @@ section {
     position: relative;
     display: inline-block; }
     section.jumbotron.profile {
-      height: 150px !important; }
+      height: 100px !important; }
     section.jumbotron.medium {
       height: 275px !important; }
     section.jumbotron.small {
