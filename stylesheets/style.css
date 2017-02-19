@@ -81,7 +81,8 @@ body {
     filter: alpha(opacity=100);
     -moz-opacity: 1;
     -khtml-opacity: 1;
-    opacity: 1; }
+    opacity: 1; 
+   }
 
 /*-----------
 
@@ -619,6 +620,7 @@ section {
     position: relative;
     display: inline-block; }
     section.jumbotron.profile {
+      background-color: #FFFFFF;
       height: 100px !important; }
     section.jumbotron.medium {
       height: 275px !important; }
