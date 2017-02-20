@@ -614,7 +614,7 @@ section {
     background: #eee; }
   section.jumbotron {
     max-width: 100%;
-    height: 100%;
+    height:initial;
     margin: 0;
     padding: 0;
     position: relative;
@@ -623,7 +623,7 @@ section {
       background-color: #FFFFFF;
       height: 100px !important; }
     section.jumbotron.medium {
-      height: 275px !important; }
+      height: 450px !important; }
     section.jumbotron.small {
       height: 200px !important; }
     section.jumbotron .bg {
@@ -663,7 +663,15 @@ section {
       right: 0; }
       @media screen and (max-width: 767px) {
         section.jumbotron section {
-          bottom: 5px; } }
+          bottom: 5px; }
+        section.jumbotron 
+        {height: initial;}  
+        }
+     @media screen and (max-width: 400px) {
+        section.jumbotron 
+        {height: initial;}  
+        }
+      }
       section.jumbotron section.top {
         bottom: auto;
         top: 90px; }
@@ -671,6 +679,22 @@ section {
           section.jumbotron section.top {
             bottom: auto;
             top: 70px; } }
+.jumbo-text {
+  position: relative;
+  z-index: 5;
+}
+
+.jumbo-image {
+  position: relative;
+  left: 0%;
+  height: 20%;}
+
+section.jumbotron.quotas {
+background: #ce8585; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #98899b, #ce8585 ); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #98899b, #ce8585 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
   section .block {
     padding: 100px;
     max-width: 1200px;
@@ -679,14 +703,14 @@ section {
       padding: 10px !important; }
     @media screen and (min-width: 1000px) {
       section .block {
-       padding: 30px 20px; } 
+       padding: 30px 20px 0; } 
      section .block .block {
       padding: 80px 50px 0 0; }}
     @media screen and (max-width: 1000px) {
       section .block {
-        padding: 30px 20px; } 
+        padding: 30px 20px 0; } 
       section .block .block {
-      padding: 0 0 0 0; }}
+      padding: 80px 50px 0 0; }}
 
     section .block img {
       max-width: 100%; }
@@ -704,7 +728,9 @@ section {
     section {
       padding: 0 20px; }
       section .block {
-        padding: 10px; } }
+        padding: 10px; }
+        section .block .block {
+      padding: 80px 20px 0 0; } }
 
 .sidebar {
   padding: 20px 30px; }
@@ -774,6 +800,8 @@ section {
   .content img {
     max-width: 100%;
     margin: 30px 0; }
+
+
 
 a.blog-item {
   height: auto; }
