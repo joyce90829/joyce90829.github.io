@@ -694,6 +694,11 @@ background: #ce8585; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #ce8585, #ce8585 ); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #ce8585, #ce8585 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+section.jumbotron.amood {
+background: #ce8585; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #afae51, #ae8e60 ); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #afae51, #ae8e60 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
   section .block {
     padding: 100px;
