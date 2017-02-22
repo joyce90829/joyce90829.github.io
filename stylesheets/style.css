@@ -33,6 +33,7 @@ Made by Themanoid
   background: yellow;
   color: #444; }
 
+
 * {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
@@ -704,7 +705,11 @@ background: #A1D4CD; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #A1D4CD, #A1D4CD ); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #A1D4CD, #A1D4CD ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
+section.jumbotron.oobe {
+background: #DBDAD6; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #DBDAD6, #DBDAD6 ); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #DBDAD6, #DBDAD6 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
   section .block {
     padding: 100px;
     max-width: 1200px;
