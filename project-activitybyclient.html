@@ -71,15 +71,15 @@
           </ul>
         </section>
       </header>
-      <section class='jumbotron quotas'>
+      <section class='jumbotron infoviz'>
         <div class=' block'>
-           <div class=' block'>
+           <div class='block'>
           <div class='row'>
-          <div class='col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8  jumbo-image'><img src="images/projects/quotas/bg.png"/>
+          <div class='col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8  jumbo-image'><img src="images/projects/activitybypathclient/bg.png"/>
           </div>
         </div>
             <div class='row'> 
-              <h1 align="center">Quotas</h1> </div>
+              <h1 align="center">System Activity Visualization</h1> </div>
         </div>
       </div>
       </section>
@@ -88,17 +88,17 @@
           <div class='row'>
             <div class='col-md-offset-2 col-md-4'>
               <h4>Project Introduction</h4>
-              <p>Quotas is a cross team project I was working on at Qumulo. We want to find a way to help the storage admin (personalized as Gerald) to oversee his storage usage and prevent end users from over using it.</p>
+              <p>Visualizing the system performance data not only solve a long standing headache for users, but differentiates our product from our competitors. As the UX designer on team, I lead the design efforts of this whole project from conception to launch meanwhile closely collaborating with stakeholders.</p>
             </div>
             <div class='col-md-2'>
               <h4>Role</h4>
               <p>UX Designer</p>
               <h4>Duration</h4>
-              <p>2 Months (Oct&Nov/2016)</p>
+              <p>3 Months (Nov/2014-Feb/2015)</p>
             </div>
             <div class='col-md-2'>
               <h4>Skills</h4>
-              <p>Interaction design, Usability testing, Info Visualization</p>
+              <p>Info Visualization, Interaction Design, Usability Testing</p>
             </div>
           </div>
         </div>
@@ -106,17 +106,16 @@
       <section class='wide gray'>
       <div class="block">
           <div class='row'>
-         <div class='col-md-offset-2 col-md-6'>
-               <h3>Problem</h3>
-                <p>One of storage admin's nightmares is that when he wakes up the next day morning, some end user just used most of the available space in the system. Thus no one else can use the system and it brings performance impact.</p>
-              </div>
-             <div class='col-md-2'>
-               <img src="images/projects/quotas/full.png"/>            
-          </div>
-               <div class='col-md-offset-2 col-md-8'>
-                <h3>Goal of Design</h3>
-                <p>Storage admin can set a limit on the directories of the cluster so its end users won't over use the storage. At the same time, Gerald can see how close the directory usage is hitting the limit so he can warn end users to clean up their directories soon.</p> 
-               </div>        
+         <div class='col-md-offset-2 col-md-8'>
+               <h3>Background</h3>
+                <p>
+                  Traditionally, data storage software is like a black box. It's very hard for storage administrators to figure out how the storage is being used by their end users. 
+                </p>             
+                <p>
+                  What we do at Qumulo differently is that our software is not only for helping storage administrators to manage their storage but also give them insights on how much the data are used and how are they used. We are the industry leader in terms of providing simple data storage solution with realtime analytics and information visualizations.</p>
+                  <img src="images/projects/activitybypathclient/background.png"/>
+                <h5 align="center">One of Visualization Examples in Qumulo Core</h5>
+              </div>      
              </div>
           </div>
            </section>
@@ -125,82 +124,57 @@
            <div class='row'>
              <div class='col-md-offset-2 col-md-8'>
               <h2>Design Process</h2>
-              <img class="fadeIn" src="images/projects/quotas/timeline.png" />
-              <h5 align="center">Project Timeline</h5>
-               <p>As the designer of this project, I worked closely with PM, front-end and back-end engineering teams in the whole design process. I collaborated with PM to define the project scope and user stories. I discussed with engineers about potential solutions.After coming up with the design, I conducted two rounds of usability tests with users and refined the design based on usability tests findings.</p>
+              <p>As the designer of this project, I worked closely with PM, Data Visualization Lead, Front-end engineering team in the whole design process. I collaborated with PM to define the project scope and user stories. I discussed with Data Viz Lead about available data sets and solutions. I conducted usability testing with users and iterated the design based on usability tests findings. Later after we shipped the first version, we released the second version which is an incremental enhancement based on the first version.</p>
+              <img class="fadeIn" src="images/projects/activitybypathclient/process.png" />
                <h3>1. User Research</h3>
-               <p>The PM had interviewed with a lot of users before this project started and defined the scope of the project. I started this project with understanding the problem we were trying to solve and conducting competitor analysis to find out what the differentiators could be for our product.</p>
-                <img src="images/projects/quotas/persona.png"/>
-                <h5 align="center">Persona - Gerald</h5>
-              <h3>2. Define problem and potential solutions</h3>      
-                <ul><h5>Problem</h5>
-                <li><p>A lot of end users tend to over use capacity of the system. And it is very hard for Gerlad to find out if he doesn't set a boundrary on it.</p></li>
-                <li><p>Gerald does assign a definite space to end users. But sometimes Gerlad tends to assign more space than the total usable space of the system. He doesn't know when his storage will be filled up and how close it will be filled up. There is no visibility on that.</p></li>
+               <p>The PM has done the research part. I started this project with understanding users pain points and what we want to achieve through the visualization. </p>
+               <h5>Users Pain Point</h5>
+               <p>Our storage admin Gerald often hears his end users complain that the system is too slow. To troubleshoot the system, Gerald needs to know which clients or projects are actively taking over the resources. Without any visibility on it, it usually takes Gerald a long time to figure out the problem. It also brings huge impacts on end users’ productivity too. </p>
+              <blockquote>This lack of visibility annoys me, if someone comes to me and says: who is using the most amount of resources in the system? I could not tell you based on my current data.</blockquote>
+              <h5>Goal of Visualization</h5>
+                <p>As the leader in data-aware software industry, Qumulo wants to create a visualization that empower Gerald with visibility of who are the most active clients and projects impacting the system performance, thus improve his troubleshooting efficiency as well as his end users working productivity.</p>
+              <h5>Solutions</h5>   
+              <ul><h5>To troubleshoot storage performance issues, Gerald needs to know those information: </h5> 
+                <li><p>Which clients are generating the most performance activity and which directories those clients are accessing.</p></li>
+                <li><p>Which directories have the most performance activity and who are the clients accessing those directories</p></li>
                 </ul>
-                <img src="images/projects/quotas/storyboard.png"/>
-                <h5 align="center">Storyboard</h5>
-               <ul><h5>Solutions to meet basic needs</h5>
-                <li><p>Gerald can create/manage a Quota through UI so that he can prevent end users from using too much space in the cluster.</p></li> 
-                </ul>
-                <ul><h5>Differentiators to meet ideal product experience</h5>
-                <li><p>D1 - "Insights": Gerald can see in real-time which directories are hitting the quota limit soon or already exceed the quota limit so he can take actions accordingly.</p></li>
-                <li><p>D2 - "Easy-to-use": Gerald can easily manage the directory and the quota set on it (when the directory is renamed or deleted, the quota will reflect the change immedidately).</p></li>
-                <li><p>D3 - "Insights": Gerald can always see total provisioned quotas compared to cluster usable capacity so he can plan accordingly.</p></li>
-                </ul>
-                
-               <h3>3. Create UX flow</h3>
-               <div class='row'>
-               <img src="images/projects/quotas/ux_flow.png"/>
-                <h5 align="center">UX flow diagram</h5>
-                </div>
-               <h3>4. Wireframes design</h3>
-               <p>The design reused the pattern we currently have of our product: creating an item in the table, and edit/delete the item from the table. The benefits of reusing a pattern:</p>
-               <ul>
-                <li><p>There are no extra learning efforts needed for users who are familiar with our product. It is a consistent experience across the product.</p></li>
-                <li><p>Engineering team can reuse the pattern (react components) they have already built to build this page.</p></li>
-                </ul>
+               <h3>2. Visualize and Prototype</h3>
+               <h5>What data are performance activity related?</h5> 
+               <p><strong>IOPS, latency and throughput.</strong> Among those three datasets users expressed the most interest in IOPs. We choose to show IOPS data as the first release of our product. </p> 
+               <p>The Data Visualization Lead came up with this raw data prototype to show me what data I can utilize for visualization.</p> 
                 <div class='row'>
-               <img src="images/projects/quotas/wireframe.png"/>
-                <h5 align="center">Wireframe - Quota Summary</h5>
-                <p>Since I am applying pattern into the design, I feel pretty confident of moving forward to the high-fi prototyping stage. And I chose to use high-fi prototypes to test with users instead of low-fi wireframes.</p>
-               <h3>5. Usability Testing</h3>
-                  <p> The goal of usability testing is to evaluate the usability of design as well as validate differentiators. We conducted usability tests with 10 people from our customer base. Through the usability tests, we validated the hypothesis and found out the two usability issues. There were no major stumbling point for users when they were trying to accomplish the tasks.</p>
-                  <h5>Hypothesis</h5>
-                  <p><strong>hypothesis 1: The differntiator D2 will improve users working productivity.</strong></p>
-                  <p>Result 1: Because users are so used to their old workflow, they are surprised by seeing the page updates automatically. Meanwhile they love this new way because it simplifies users current workflow.</p>
-                  <p><strong>hypothesis 2: The differentiator D3 will give users more insights in managing their data (data-aware software)</strong></p>
-                  <p>Result 2: It depends on what users typical workflow is. If they tend to over provision quotas (such as media&entertainment studios), this will be a very helpful info because it tells them when it is time to buy more storage. But for users like universities or institutes, they tend not to over provision quotas, this info is not very helpful.</p>
-                  <p> Here’s some quotes from one of our users:<blockquote>“(After we explained how the system will behave) That’s a whole new category of file system analytics and understanding of what users are doing under the hood that we don't currently have, that would be phenomenal.”</blockquote><blockquote>“I want to see insights. I usually use CML to set up quotas. If I come to UI, I want it to show me the trend.”</blockquote></p>
-                  <h5>Usability Issues</h5>
-                 <p>There are two major usability issues we found through usability test.</p>
-                 <img src="images/projects/quotas/issues.png"/>
-                <h5 align="center">Major usability issues</h5>
-                <h3>6. Iterate design</h3>            
-                 <div class='col-md-12'>
-                <img src="images/projects/quotas/info bar variations.png"/>
-                <h5 align="center">Info bar variations</h5>
-               </div>
-                <div class='col-md-12'>
-               <img src="images/projects/quotas/quotas_v1.png"/>
-                <h5 align="center">Variation 1 - use icons</h5>
-               </div>
-               <div class='col-md-12'>
-                <img src="images/projects/quotas/quotas_v2.png"/>
-                <h5 align="center">Variation 2 - use texts</h5>
+                <div class='col-md-offset-2 col-md-8'>
+               <img src="images/projects/activitybypathclient/RawData.png"/>
+                <h5 align="center">Raw Data Prototype</h5>
+                </div>
               </div>
-                <div class='col-md-12'>
-                <img src="images/projects/quotas/quotas_v3.png"/>
-                <h5 align="center">Winner - Variation 3 </h5>
-              </div>   
-               <p>We tested Variation 1-3 with users. We found out that users prefer texts over icon because they have different understanding of icons. Also they would prefer to see usage and red texts next to each other so they wouldn't need to hunt for the information on their desktop. </p>
-               <h3>Final Design</h3>
-                <img src="images/projects/quotas/m3-1.png"/>
-                <h5 align="center">Final Design - Quota Summary- Under usage</h5>
-               <img src="images/projects/quotas/m3-2.png"/>
-                <h5 align="center">Final Design - Quota Summary- Over usage</h5>
-                <img src="images/projects/quotas/m3-create.png"/>
-                <h5 align="center">Final Design - Create Quota</h5>
-            </div>
+                <div class='row'>
+                <h5>Design Strategy</h5>
+                  <p>It follows the Shneiderman mantra "overview first details on demand”: users come to this page to oversee the trend first. If there is any outstanding data they would like to investigate further using expanding and sorting function.</p>
+                <ul>
+                <li><p>Encode variables into visual cues: color, geometric shapes, area, shape and length</p></li>
+                 <li><p>Group secondary data and collapse them by default</p></li>
+              </ul>
+              <div class='col-md-offset-2 col-md-8'>
+              <img src="images/projects/activitybypathclient/Design1.png"/>
+                <h5 align="center">Design solution</h5>
+              </div>
+              </div>
+               <div class='row'>
+               <h3>3. Usability Testing</h3>
+                  <p> With this set of prototype, I started usability testing with 10 users.</p>
+                  <h3>4. We Shipped!</h3>
+                </div>
+                  <div class='row'>
+                  <div class='col-md-offset-2 col-md-8'>
+                  <img src="images/projects/activitybypathclient/weshipped.png"/>
+                </div>
+              </div>
+                  <p> This visualization is one of our product core features when we launched our product to market. Because we already had plenty of customers when we launched the product, after they used this feature, they absolutely loved it!</p>
+                 Here are <a class='inner' href='http://qumulo.com/press/qumulo-emerges-from-stealth/'>customer quotes</a>
+               <img src="images/projects/activitybypathclient/F1.png"/>
+                <h5 align="center">Design solution</h5>
+            
           </div>
         </div>
       </section>
