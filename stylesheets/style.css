@@ -25,9 +25,11 @@ Made by Themanoid
 -------------*/
 @import url("tera-slider.css");
 @import url("tera-lightbox.css");
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 ::selection {
-  background: yellow;
-  color: #444; }
+  background: #fa2e82;
+  color: #fff; }
 
 ::-moz-selection {
   background: yellow;
@@ -37,8 +39,7 @@ Made by Themanoid
 * {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
-<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
- <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,400italic,300italic,100italic,700italic,700' rel='stylesheet' type='text/css'>
+
 
 /*-----------
 
@@ -47,7 +48,7 @@ Made by Themanoid
 -------------*/
 html, body {
   font-size: 16px;
-  font-family: 'Robotos', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   background: #fff;
   color: #444;
@@ -139,7 +140,7 @@ h5 {
 p {
   font-size: 0.9em;
   line-height: 1.6em;
-  font-family: 'Robotos', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #444;
   margin: 10px 0 30px 0; }
   p a {
@@ -510,7 +511,7 @@ textarea.form-element {
     #navigation li a {
       font-size: 1.2em;
       color: #444;
-      font-family: "Helvetica", sans-serif;
+      font-family: "Poppins", sans-serif;
       display: inline-block;
       padding: 5px 10px; }
     #navigation li:hover a {
