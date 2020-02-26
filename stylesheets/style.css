@@ -163,11 +163,11 @@ background-color: yellow}
 
 .subtitle {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$ms)";
-  filter: alpha(opacity=70);
-  -moz-opacity: 0.7;
-  -khtml-opacity: 0.7;
-  opacity: 0.7;
-  font-family: "Helvetica", sans-serif; }
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+  font-family: "Roboto", sans-serif; }
 
 /*-----------
 
@@ -474,9 +474,9 @@ textarea.form-element {
   -o-transition: all 0.2s cubic-bezier(0.35, 0.085, 0.305, 1.005);
   transition: all 0.2s cubic-bezier(0.35, 0.085, 0.305, 1.005); }
   .btn.btn-default {
-    background: #444; }
+    background: #F90673; }
     .btn.btn-default:hover, .btn.btn-default.active {
-      background: #222;
+      background: #444;
       color: #fff; }
   .btn.btn-lg {
     padding: 20px 35px; }
@@ -697,9 +697,9 @@ section {
   height: 20%;}
 
 section.jumbotron.quotas {
-background: #ce8585; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #ce8585, #ce8585 ); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #ce8585, #ce8585 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #E3CAC9; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #E3CAC9, #E3CAC9 ); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #E3CAC9, #E3CAC9 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 section.jumbotron.amood {
 background: #ce8585; /* fallback for old browsers */
@@ -1074,7 +1074,7 @@ footer {
     -webkit-transform: scale(0.95, 0.95);
     -moz-transform: scale(0.95, 0.95);
     transform: scale(0.95, 0.95);
-    background: #444;
+    background: #F90673;
     position: absolute;
     left: 0;
     right: 0;
@@ -1083,7 +1083,7 @@ footer {
     padding: 40px;
     font-size: 15px; }
     .inner .caption .field {
-      font-family: "Helvetica", sans-serif;
+      font-family: "Roboto", sans-serif;
       color: #fff;
       position: absolute;
       text-transform: uppercase;
@@ -1091,15 +1091,15 @@ footer {
       font-size: 12px;
       letter-spacing: 1px;
       -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$ms)";
-      filter: alpha(opacity=70);
-      -moz-opacity: 0.7;
-      -khtml-opacity: 0.7;
-      opacity: 0.7; }
+      filter: alpha(opacity=100);
+      -moz-opacity: 1;
+      -khtml-opacity:1;
+      opacity: 1; }
     .inner .caption .titles {
       position: absolute;
       bottom: 40px;
       width: auto;
-      border-bottom: 1px solid #777;
+      border-bottom: 2px solid #FFF;
       padding-bottom: 20px; }
       .inner .caption .titles .title {
         text-transform: uppercase; }
@@ -1117,10 +1117,10 @@ footer {
           padding-bottom: 5px; } }
   .inner:hover .caption {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$ms)";
-    filter: alpha(opacity=95);
-    -moz-opacity: 0.95;
-    -khtml-opacity: 0.95;
-    opacity: 0.95;
+    filter: alpha(opacity=85);
+    -moz-opacity: 0.85;
+    -khtml-opacity: 0.85;
+    opacity: 0.85;
     -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
     transform: scale(1, 1); }
@@ -1231,9 +1231,9 @@ header {
     transition: color 0.25s cubic-bezier(0.35, 0.085, 0.305, 1.005); }
   header.affix {
     padding-top: 0;
-    background: #444; }
+    background: #eee; }
     header.affix * {
-      color: #bbb !important; }
+      color: #444 !important; }
     header.affix .brand {
       padding: 15px 0;
       color: #fff !important; }
